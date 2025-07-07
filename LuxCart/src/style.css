@@ -1,0 +1,38 @@
+.button:hover {
+  color: black !important;
+  background-color: aliceblue !important;
+  transition: all 0.3s ease-in-out;
+}
+.category-card {
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  max-height: 200px;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  background-color: #f6f6f6;
+}
+/* .mainnav:hover,
+.mainnav:focus,
+.mainnav.active {
+  background-color: blueviolet !important;
+  color: aliceblue !important;
+} */
+
+.mainnav:hover {
+  cursor: pointer;
+  background-color: #6b19a1 !important;
+  color: aliceblue !important;
+  border-radius: 15px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
